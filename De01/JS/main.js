@@ -175,13 +175,6 @@ btn_addVaoBang.addEventListener('click', (e) => {
     return false;
  }
 
-var st="<table>";
-for (x in document) // yourarray là tên mảng của bạn
-{
-st=st + "<tr><td>" + yourarray[x] + "</td></tr>";
-}
-st=st+"</table>";
-document.write(st);
 
 
 
